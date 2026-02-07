@@ -36,3 +36,30 @@ The database supports operational and analytical queries, including:
 - Restricted views created to protect sensitive data
 
 ## Repository Structure
+museum-collection-centre-oracle-sql/
+│── README.md
+├── docs/
+│ └── executive-summary.pdf
+├── sql/
+│ ├── schema_and_data.sql
+│ └── security_roles_views.sql
+└── outputs/
+└── (ERD and query result screenshots)
+
+
+## How to Use
+1. Execute `schema_and_data.sql` to create tables and insert sample data
+2. Run query and security scripts as required
+3. Review the `outputs/` folder for ERD and example query results
+
+## Tools & Skills Demonstrated
+- Oracle SQL
+- Relational database design
+- Normalisation (1NF–3NF)
+- Complex SQL queries
+- Performance tuning and indexing
+- Role-based security and access control
+
+## Academic Note
+This repository is provided for professional portfolio purposes. The full assessed coursework report and original submission files are intentionally not included.
+
